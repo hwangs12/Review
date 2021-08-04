@@ -1,0 +1,21 @@
+import React from "react";
+import Review from "./Review";
+function App() {
+	return (
+		<>
+			<main>
+				<div className="title">
+					<h2>Our Reviews</h2>
+					<div className="underline"></div>
+					<div className="container">
+						<div className="review">
+							<Review />
+						</div>
+					</div>
+				</div>
+			</main>
+		</>
+	);
+}
+
+export default App;
